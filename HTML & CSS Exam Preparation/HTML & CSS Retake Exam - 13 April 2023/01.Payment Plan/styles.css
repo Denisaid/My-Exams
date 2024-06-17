@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter';
+    background: url('image/background.jpg') center / cover no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.cards {
+    max-width: 192rem;
+    display: flex;
+    gap: 4rem;
+    padding: 8rem 14rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 3rem 4rem;
+}
+
+.card-active {
+    transform: scale(1.05);
+}
+
+.card__h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.card__price {
+    color: #595959;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.card__price span {
+    font-weight: 700;
+    font-size: 8rem;
+    color: black;
+}
+
+.card__per-month {
+    color: #595959;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+.card__list {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card__item {
+    font-size: 2rem;
+}
+
+.card__btn {
+    padding: 2.5rem 4rem;
+    color: #fff;
+    background-color: black;
+    width: fit-content;
+    font-size: 2.6rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
