@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 24px/1.2 'Inter';
+}
+
+.background {
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1630px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.first-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.first-column article {
+    display: flex;
+    padding: 80px 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+article .desc {
+    color: #5E5A59;
+}
+
+article h2 {
+    font-weight: 500;
+}
+
+.first-column article .fa-quote-left {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.first-column article .desc {
+    padding-bottom: 30px;
+}
+
+.second-column {
+    flex: 1;
+}
+
+.second-column article {
+    height: 100%;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-column article .fa-quote-left {
+    font-size: 100px;
+    padding-bottom: 60px;
+}
+
+.second-column article .desc{
+    font-size: 23px;
+}
+
+img {
+    display: block;
+    width: 25%;
+    aspect-ratio: 1/1;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+article {
+    background: #fff;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #5E5A59;
+    padding-top: 30px;
+}
+
+.wrapper h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.wrapper img{
+    filter: grayscale(100%);
+}
