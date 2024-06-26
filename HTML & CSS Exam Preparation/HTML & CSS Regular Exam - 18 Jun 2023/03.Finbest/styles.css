@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter';
+    line-height: 1.5;
+    max-width: 192rem;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    padding: 4rem 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav__item a,
+.user-btns__item a {
+    font-size: 2rem;
+    color: black;
+}
+
+.user-btns__list {
+    display: flex;
+    gap: 3rem;
+}
+
+.user-btns__button {
+    padding: 2rem 3rem;
+}
+
+.user-btns__button--sign {
+    background-color: #ade2df;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.hero {
+    background-color: #ade2df;
+    padding: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.hero__h1 {
+    font-size: 8rem;
+    font-weight: 500;
+}
+
+.hero__p {
+    font-size: 2.2rem;
+}
+
+.hero__buttons ul,
+.cta__buttons ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero__buttons ul li a,
+.cta__buttons ul li a {
+    font-size: 2rem;
+    background-color: black;
+    color: #fff;
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+}
+
+.stats {
+    padding: 10rem 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-card {
+    border-left: 2px solid rgb(0, 0, 0, 0.2);
+    padding: 1rem 4em 10rem 4rem;
+}
+
+.stats-card:last-child {
+    border-right: 2px solid rgb(0, 0, 0, 0.2);
+}
+
+.stats-card__h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.stats-card__p {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.about {
+    padding: 0 31rem;
+    background-color: #ade2df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+}
+
+.img-container {
+    padding: 0 6rem;
+    border: 2px dashed rgb(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info__h2 {
+    font-size: 5rem;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.info__h3 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.info__p {
+    font-size: 2rem;
+}
+
+.explore-link {
+    font-size: 2rem;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.85rem;
+    text-decoration-color: rgb(0, 0, 0, 0.6);
+}
+
+.pricing {
+    background-color: #f3f5fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9rem;
+}
+
+.pricing-header{
+    padding-top: 20px;
+}
+
+.pricing-header__p {
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #ade2df;
+    border-radius: 1rem;
+}
+
+.pricing-header__h2 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.pricing-container {
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    margin-bottom: 8rem;
+}
+
+.pricing-card {
+    flex: 1 1 19.44%;
+    padding: 3.5rem 4rem;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.pricing-card::after {
+    content: '';
+    position: absolute;
+    top: 4rem;
+    bottom: 4rem;
+    right: 0;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.pricing-card__h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pricing-card__p {
+    font-size: 1.8rem;
+}
+
+.pricing-card__h2 {
+    padding: 4rem 0;
+    font-size: 4rem;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.pricing-card__h2 span {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #595959;
+}
+
+.pricing-card__list,
+.contacts__list {
+    padding: 4rem 0 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.pricing-card__item,
+.contacts__item {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.fa-check {
+    font-size: 2rem;
+}
+
+.pricing-card__btn {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #ade2df;
+    border-radius: 1rem;
+}
+
+.contacts {
+    flex: 1 1 41.6%;
+    padding: 4rem;
+    background-color: #ade2df;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__p:first-child {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contacts__p {
+    font-size: 2.8rem;
+    font-weight: 600;
+    width: 95%;
+}
+
+.contacts__list {
+    margin-bottom: 18rem;
+}
+
+.contacts__btn {
+    color: #fff;
+    background-color: black;
+    padding: 3rem 0;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+
+.cta {
+    background-color: #ade2df;
+    text-align: center;
+    padding: 13rem 57rem;
+}
+
+.cta__h2 {
+    font-size: 8rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.cta__p {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+}
+
+.cta__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 3rem 5.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__p {
+    font-size: 2rem;
+    color: #595959;
+}
+
+.footer__list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.footer__item a {
+    color: black;
+    font-size: 2rem;
+}
