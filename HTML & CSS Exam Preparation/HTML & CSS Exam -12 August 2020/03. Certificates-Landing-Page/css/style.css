@@ -1,0 +1,236 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 5px -1px #000000;
+    box-shadow: 0px 0px 5px -1px #000000;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 0 0 8px 8px;
+    padding: 15px 25px;
+    background-color: white;
+}
+
+.current {
+    position: relative;
+}
+
+.logo-wrapper {
+    width: 140px;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    padding-bottom: 9px;
+}
+
+nav ul li {
+    margin: 0 12px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #4a5868;
+}
+
+.current hr {
+    border-top: 4px solid #42abf8;
+    position: absolute;
+    top: -34px;
+    left: -10px;
+    width: 100px;
+}
+
+.profile {
+    background-color: #42abf8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px -1px #42abf8;
+    box-shadow: 0px 0px 12px -1px #42abf8;
+}
+
+.profile a {
+    color: white;
+    top: 20px;
+    position: relative;
+    top: 9px;
+}
+
+.certificates-info {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url(../images/hero-certificates.jpg);
+    display: flex;
+    position: relative;
+    top: -79px;
+    z-index: -1;
+    padding: 11% 10% 5%;
+}
+
+.certificates-info h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.certificates-info-content {
+    background-color: #29394b;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.info {
+    font-style: italic;
+    color: #697380;
+    position: absolute;
+    top: 455px;
+}
+
+.certificates-info-image {
+    display: flex;
+    align-items: flex-end;
+}
+
+.diploma p {
+    color: #5f6a78;
+}
+
+.diploma h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.diploma-content {
+    background-color: #f4f5f7;
+    margin: 0 9%;
+    padding: 5px 20px;
+    padding-bottom: 25px;
+}
+
+.diploma>p {
+    position: relative;
+    left: 120px;
+}
+
+.apply {
+    background: linear-gradient(rgba(96, 108, 116, 0.5), rgba(96, 108, 116, 0.7)), url(../images/sign-up-prompt-background.jpg);
+    margin: 0 9%;
+    padding: 18px 20px;
+    border-radius: 8px;
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    padding-bottom: 42px;
+}
+
+.apply h3 {
+    font-size: 22px;
+}
+
+.apply p {
+    padding-inline: 125px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 36px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: white;
+    color: #4caff8;
+    border: 1px solid white;
+    margin-right: 60px;
+}
+
+.separator {
+    border-right: 1px solid white;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    height: 25px;
+    top: 10px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+footer {
+    margin: 0 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin-top: 60px;
+    padding: 30px 0;
+}
+
+footer .logo-and-copyright-wrapper {
+    display: flex;
+}
+
+.logo-wrapper {
+    padding-right: 30px;
+}
+
+.copyright {
+    color: #d8d8d8;
+    font-size: 12px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: #636e7c;
+    padding-right: 10px;
+}
+
+footer ul li a {
+    color: #636e7c;
+}
