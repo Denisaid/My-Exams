@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-site-footer,
+.section-top-bar {
+    background: rgba(208, 25, 25, 1);
+}
+
+.section-top-bar{
+padding: 0 2em;
+}
+
+.section-top-bar .container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.section-top-bar .socials {
+    display: flex;
+    gap: 0.5em
+}
+
+.section-top-bar .socials li,
+.section-top-bar .socials a {
+    display: block;
+    color: #fff;
+}
+
+.socials span {
+    display: none;
+}
+
+.section-site-footer{
+    text-align: center;
+    padding: 0.5em;
+}

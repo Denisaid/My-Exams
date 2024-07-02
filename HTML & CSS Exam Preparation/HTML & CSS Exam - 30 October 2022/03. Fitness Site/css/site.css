@@ -1,0 +1,9 @@
+@import url(reset.css);
+@import url(typografy.css);
+@import url(layout.css);
+@import url(navigation.css);
+@import url(sections-column.css);
+
+.section-coaches {
+    background: rgba(239, 239, 239, 1);
+}
