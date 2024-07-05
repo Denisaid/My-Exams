@@ -1,0 +1,166 @@
+@media (max-width: 468px) {
+    .logo-center {
+        width: 40%;
+    }
+
+    .div-header {
+        display: none;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 31px;
+    }
+
+    .button-header {
+        margin: 90px 0 80px 0;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .options article {
+        text-align: center;
+        width: 100%;
+    }
+
+    .options article h4 {
+        font-size: 28px;
+    }
+
+    main h2 {
+        padding: 30px 0 10px 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 85px;
+    }
+
+    .gallery article p {
+        padding-top: 20px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .gallery article a {
+        margin-left: 0;
+    }
+
+    .blog-title {
+        justify-content: center;
+        width: inherit;
+        padding: 40px 0 20px 0;
+    }
+
+
+    .blog-title h4 span {
+        display: none;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    .blog-title a {
+        display: none;
+    }
+
+    .blog-title h4 {
+        font-size: 32px;
+    }
+
+    #about-blog {
+        text-align: left;
+        width: 90%;
+    }
+
+    #about-blog h3{
+        font-size: 16px;
+    }
+
+    #about-blog p{
+        font-size: 13px;
+    }
+
+    .magazine {
+        padding-top: 0;
+    }
+
+    .magazine-title {
+        width: 100%;
+        padding: 37px 0 0 54px;
+    }
+
+    .magazine-title h4 {
+        font-size: 24px;
+    }
+
+    #magazine-img {
+        width: 80%;
+        padding-left: 45px;
+        border: none;
+        margin-top: 35px;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+    }
+
+    .magazine-info img {
+        width: 100%;
+        padding-top: 17px;
+    }
+
+    .magazine-info h3 {
+        padding: 20px;
+    }
+
+    .magazine-info p {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .magazine-title{
+        width: inherit;
+        padding: 37px 0 0 25px;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+
+    .magazine article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    footer p{
+        font-size: 22px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+}
