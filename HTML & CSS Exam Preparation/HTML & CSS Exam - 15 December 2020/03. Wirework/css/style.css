@@ -1,0 +1,178 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.section-wrapper {
+    max-width: 1350px;
+    margin: 0 20px;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin: 16px 32px 16px 0px;
+    font-size: 36px;
+}
+
+.header-logo::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+    left: 14px;
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2c383b;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 12px;
+    margin: 0 1px;
+    background-color: #ececec;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c383b;
+}
+
+nav ul li:first-child {
+    background-color: #e24e2a;
+}
+
+nav ul li:first-child a {
+    color: white;
+}
+
+.header-image img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.about {
+    background-color: #e24e2a;
+}
+
+.about-text {
+    text-align: center;
+    padding: 50px 140px;
+    line-height: 1.5;
+    color: #f5bea7;
+    margin: -5px auto 0 auto;
+}
+
+.about-text a {
+    color: white;
+}
+
+.benefits {
+    display: flex;
+    background-color: #383838;
+    text-align: center;
+    padding: 50px;
+}
+
+.benefit {
+    margin: 0 20px;
+}
+
+.benefit-title {
+    color: white;
+    border-bottom: 1px solid #676a6b;
+}
+
+.benefit-text,
+.info-item-text {
+    color: #676a6b;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.benefit-icon-wrapper {
+    font-size: 40px;
+    color: white;
+    background-color: #e24e2a;
+    padding: 17px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 70px;
+}
+
+.cta-section-title {
+    margin-bottom: 0;
+    color: #555555;
+}
+
+.cta-section-subtitle {
+    margin-top: 0;
+    color: #a2a2b4;
+}
+
+.btn {
+    background-color: #1b9772;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    background-color: #383838;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-item-title {
+    font-size: 21px;
+    color: white;
+}
+
+.info-item-text {
+    padding-block: 18px;
+}
+
+footer {
+    background-color: #1b9772;
+    text-align: center;
+    padding: 50px;
+    font-size: 11px;
+}
+
+footer p {
+    color: #59af8c;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
